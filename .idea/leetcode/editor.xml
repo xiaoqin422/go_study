@@ -3,6 +3,28 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/algorithms/leetcode/leetcode/editor/cn/[207]课程表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/algorithms/leetcode/leetcode/editor/cn/doc/content/[207]课程表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn207" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/algorithms/leetcode/leetcode/editor/cn/[207]课程表.go" />
+              <option name="titleSlug" value="course-schedule" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/algorithms/leetcode/leetcode/editor/cn/[210]课程表 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/algorithms/leetcode/leetcode/editor/cn/doc/content/[210]课程表 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn210" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/algorithms/leetcode/leetcode/editor/cn/[210]课程表 II.go" />
+              <option name="titleSlug" value="course-schedule-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/var/folders/f9/rw5t4l4s2ns31_rhsmjcn0b40000gp/T/leetcode/editor/cn/[1]两数之和.go">
           <value>
             <LeetcodeEditor>

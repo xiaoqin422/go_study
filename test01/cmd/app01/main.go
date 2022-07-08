@@ -57,7 +57,6 @@ func main() {
 	//	fmt.Printf("index:%d, value:%d", i, list[i])
 	//
 	//}
-
 	m := map[int]string{}
 	m[1] = "1"
 	m[2] = "22222"
