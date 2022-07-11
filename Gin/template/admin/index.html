@@ -1,0 +1,51 @@
+{{define "admin/index.html"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理页面</title>
+</head>
+<body>
+{{template "public_header.html" .}}
+
+<h2>后台管理首页</h2>
+<p>
+    <b>条件判断语句</b>
+    {{if gt .score 90}}
+    优秀
+    {{else if gt .score 80}}
+    良好
+    {{else if ge .score 60}}
+    及格
+    {{else}}
+    不及格
+    {{end}}
+</p>
+<p>
+    <b>with</b>
+    {{with .news}}
+    {{.Title}}
+    {{.Content}}
+    {{end}}
+</p>
+<div>
+    <b>遍历</b>
+    <table>
+    <tr><th>序号</th><th>标题</th><th>内容</th></tr>
+    {{range $index,$news := .newsList}}
+    <tr>
+        <td>{{$index}}</td>
+        <td>{{$news.Title}}</td>
+        <td>{{$news.Content}}</td>
+    </tr>
+    {{end}}
+    </table>
+</div>
+<p>
+    <b>函数</b>
+    {{.time}}
+</p>
+{{template "public_footer.html" .}}
+</body>
+</html>
+{{end}}

@@ -1,0 +1,26 @@
+{{define "main.html"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gin</title>
+    <script src="/static/js/1.js"></script>
+</head>
+<body>
+<h1>这是首页</h1>
+<img src="/static/image/gopher.png" alt="外部静态资源引入">
+<p>{{.title}}</p>
+<p>{{.news.Title}}</p>
+<p>{{.news.Content}}</p>
+<br>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="file">上传文件</label>
+    <input type="file" name="file" id="file">
+    <input type="submit" value="上传">
+</form>
+</body>
+</html>
+{{end}}

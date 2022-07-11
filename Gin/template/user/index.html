@@ -1,0 +1,25 @@
+{{define "user/index.html"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>后台管理页面</title>
+</head>
+<body>
+{{template "public_header.html" .}}
+
+<h2>用户首页</h2>
+<div>
+  <form action="/login2" method="post">
+    <label for="username">用户名</label>
+    <input type="text" name="username" id="username"><br>
+    <label for="password">密码</label>
+    <input type="password" name="password" id="password"><br>
+    <input type="submit" value="提交">
+
+  </form>
+</div>
+{{template "public_footer.html" .}}
+</body>
+</html>
+{{end}}
